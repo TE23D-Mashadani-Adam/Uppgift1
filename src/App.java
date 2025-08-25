@@ -7,7 +7,6 @@ public class App {
         System.out.println("Du ska gissa ett tal 1-10, du har 3 försök");
 
         double randomNum = Math.floor(Math.random() * 10) + 1; //Generar slumpmässigt tal
-        System.out.println(randomNum);
 
         //Loopet körs så länge spelet är på
         while (true) {
